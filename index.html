@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+</head>
+<body>
+    <div class="container effect7">
+        <div class="nav-left">
+            <!-- account_info -->
+            <div class="account_info">
+                <img src="nayeon.jpg">
+                <div class="info">
+                    <h3>Nayeon</h3>
+                    <p>Nayeon@gmail.com<span class="material-symbols-outlined">arrow_drop_down</span></p>
+                </div>
+            </div>
+
+            <!-- Serch text Box -->
+            <div class="search">
+                <input type="text" placeholder="search task...">
+            </div>
+
+            <!-- All categories -->
+            <div class="categories">
+                <ul>   
+                    <li onclick="fill('all')">
+                        <div class="categories-info">
+                            <span class="material-symbols-outlined">
+                                settings
+                                </span>
+                            <span>All Task</span>
+                        </div>
+                        <div class="badge">
+                            <div class="num">
+                                6
+                            </div>
+                        </div>
+                    </li>
+                    <li onclick="fill('Home')">
+                        <div class="categories-info">
+                            <span class="material-symbols-outlined">
+                                home
+                                </span>
+                            <span>Home</span>
+                        </div>
+                        <div class="badge">
+                            <div class="num">
+                                2
+                            </div>
+                        </div>
+                    </li>
+                    <li onclick="fill('School')">
+                        <div class="categories-info">
+                            <span class="material-symbols-outlined">
+                                square_foot
+                                </span>
+                            <span>School</span>
+                        </div>
+                        <div class="badge">
+                            <div class="num">
+                                1
+                            </div>
+                        </div>
+                    </li>
+                    <li onclick="fill('HI task')">
+                        <div class="categories-info">
+                            <span class="material-symbols-outlined">
+                                local_post_office
+                                </span>
+                            <span>HI task</span>
+                        </div>
+                        <div class="badge">
+                            <div class="num">
+                                1
+                            </div>
+                        </div>
+                    </li>
+                    <li onclick="fill('Personal')">
+                        <div class="categories-info">
+                            <span class="material-symbols-outlined">person</span>
+                            <span>Personal</span>
+                        </div>
+                        <div class="badge">
+                            <div class="num">
+                                2
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <!-- button add new categories -->
+            <div class="add-new-categories">
+                <a>
+                    <span class="material-symbols-outlined">add_circle</span>
+                    <span>Add Category</span>
+                </a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="wrapper">
+                <div class="task-title">
+                    <span class="material-symbols-outlined">house</span>
+                    <h3>Tasks</h3>
+                </div>
+                <div class="task-list">
+                    <ul>
+                    
+                    </ul>
+                </div>
+                <div id="add-new">
+                        <span class="material-symbols-outlined">add_circle</span>
+                        <a>Add Category</a>
+                    
+
+                </div> 
+            </div>
+        </div>
+        
+    </div>
+<script src="app.js"></script>
+</body>
+<script></script>
+</html>

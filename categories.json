@@ -1,0 +1,33 @@
+[
+    {
+        "logo":"material-symbols-outlined",
+        "text":"format_align_justify",
+        "ca":"All Task",
+        "num":"3"
+    },
+    {
+        "logo":"material-symbols-outlined",
+        "text":"house",
+        "ca":"Home",
+        "num":"3"
+    },
+    {
+        "logo":"material-symbols-outlined",
+        "text":"school",
+        "ca":"School",
+        "num":"4"
+        
+    },
+    {
+        "logo":"material-symbols-outlined",
+        "text":"local_post_office",
+        "ca":"Office",
+        "num":"2"
+    },
+    {
+        "logo":"material-symbols-outlined",
+        "text":"person",
+        "ca":"Personal",
+        "num":"4"
+    }
+]
